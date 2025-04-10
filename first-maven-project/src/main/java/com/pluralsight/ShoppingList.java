@@ -14,5 +14,9 @@ public class ShoppingList {
         System.out.println("8.Pen");
         System.out.println("9.Avocados");
         System.out.println("10.Rice");
+
+        int x = 250;
+        String name = "Ozel";
+
     }
 }
