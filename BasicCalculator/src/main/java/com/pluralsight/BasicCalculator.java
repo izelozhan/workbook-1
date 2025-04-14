@@ -18,11 +18,12 @@ public class BasicCalculator {
         System.out.println("(M)ultiply");
         System.out.println("(D)ivide");
 
-        System.out.print("Please select an option: ");
+        System.out.println("Please select an option: ");
         String option = myScanner.next().toUpperCase();
 
         double result;
 
+        //if-else statement
         if(option.equals("A")){
             result = num1 + num2;
             System.out.println("Your result is " + result);
@@ -44,6 +45,11 @@ public class BasicCalculator {
         } else {
             System.out.println("You need to choose one of the options below");
         }
+        //switch-case
+//        switch (option) {
+//            case 'A':
+//                return
+//        }
 
 
     }
