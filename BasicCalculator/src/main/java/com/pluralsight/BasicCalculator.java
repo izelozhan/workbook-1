@@ -23,7 +23,7 @@ public class BasicCalculator {
 
         double result;
 
-        //if-else statement
+        //if-else statement//
         if(option.equals("A")){
             result = num1 + num2;
             System.out.println("Your result is " + result);
